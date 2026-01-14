@@ -1,5 +1,8 @@
 import React from 'react'
 import "./home.css"
+import ssnlogo from "../../assets/ssn.png"
+import campusimage from "../../assets/ssncampus.png"
+import ikslogo from "../../assets/ikslogo.png"
 export default function home() {
   return (
     <div className='homecontainer'>
@@ -11,10 +14,10 @@ export default function home() {
       </div>
       <div className="imagewrapper">
         <div className="campusimgwrapper">
-          <img className="campusimg" src="../Images/ssncampus.jpg" alt="" />
+          <img className="campusimg" src={campusimage} alt="" />
         </div>
-        <img src="../Images/ikslogo.png" alt="" className="ikslogo" />
-        <img src="../Images/ssn.png" alt="" className="ssnlog" />
+        <img src={ikslogo} alt="" className="ikslogo" />
+        <img src={ssnlogo} alt="" className="ssnlog" />
       </div>
     </div>
   )
