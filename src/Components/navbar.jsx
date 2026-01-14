@@ -12,8 +12,9 @@ function Navbar() {
       </div>
 
       <ul className="itemlist">
+        <li><Link to="/about">About</Link></li>
         <li><Link to="/speakers">Speakers</Link></li>
-        <li><Link to="/about">Schedule</Link></li>
+        <li><Link to="/schedule">Schedule</Link></li>
         <li><Link to="/programs">Programs</Link></li>
         <li><Link to="/venue">Venue</Link></li>
         <li><Link to="/committee">Committee</Link></li>
