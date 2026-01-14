@@ -1,0 +1,91 @@
+.homecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center ;
+    color: white;
+    overflow: hidden;
+}
+
+.title{
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 300%;
+}
+
+.datedesc{
+    font-weight: 100;
+    font-family: Arial;
+    font-size: 150%;
+}
+
+.collegename{
+    font-weight: 150%;
+    font-family: Arial;
+    font-size: 200%;
+}
+
+.campusimg {
+    width: 100%;
+    height: 50vh;
+}
+.texttitle {
+    height: 43vh;
+    padding: 2%;
+    box-sizing: border-box;
+    display: flex;             
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;        
+}
+.imagewrapper {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+/* image wrapper */
+.campusimgwrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* base image */
+.campusimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* white overlay */
+.campusimgwrapper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+
+/* logos – shared styles */
+.ikslogo,
+.ssnlog {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);   /* vertical center */
+    width: 120px;
+    z-index: 2;                    /* above overlay */
+}
+
+/* left logo */
+.ikslogo {
+    left: 20%;
+    width: 20%;
+}
+
+/* right logo */
+.ssnlog {
+    right: 20%;
+    width: 20%;
+}

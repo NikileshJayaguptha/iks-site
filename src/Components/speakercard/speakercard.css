@@ -1,0 +1,69 @@
+.cardwrapper {
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    padding: 3% 4%;
+    width: 80%;
+    max-width: 90%;
+
+    /* Glass background */
+    background: linear-gradient(
+        145deg,
+        rgba(15, 31, 43, 0.45),
+        rgba(20, 43, 61, 0.25)
+    );
+
+    /* Glass blur */
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    /* Glass border */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    /* Depth */
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.35);
+
+    /* Rounded capsule */
+    border-radius: 50%,50%,50%,50%;
+}
+
+
+
+.speakerimg {
+    width: 18%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.4% solid #57B9FF;
+}
+
+.speakertext {
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+}
+
+.speakername {
+    color: #57B9FF;
+    font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 180%;
+}
+
+.speakerdesc {
+    color: #cfe9ff;
+    font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
+    font-size: 105%;
+    line-height: 140%;
+}
+
+.speechtopic {
+    margin-top: 4%;
+    padding: 3% 4%;
+    background: rgba(87, 185, 255, 0.15);
+    color: #a4d6fa;
+    font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
+    font-size: 100%;
+}

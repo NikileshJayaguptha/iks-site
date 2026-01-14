@@ -1,0 +1,36 @@
+.navbar{
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+.logo{
+    flex: 0.2;
+    align-items: center;
+}
+.itemlist{
+    display: flex;
+    justify-content: space-between;
+}
+.itemlist>li>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.itemlist>li>a:hover {
+    color: #0365af  ;
+}
+.itemlist{
+        flex:0.8;
+        list-style:none;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+}
+
+.logoimg{
+    width:8em;
+    margin-top: 10px;
+}
