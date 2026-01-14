@@ -1,10 +1,13 @@
 {
+  "homepage": "https:/NikileshJayaguptha.github.io/iks-site",
   "name": "site-iksconference",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"vite build",
+    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
