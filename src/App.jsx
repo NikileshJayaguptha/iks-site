@@ -2,24 +2,19 @@ import './App.css'
 import Navbar from './Components/navbar'
 import Home from "./Components/Home/home.jsx"
 import Speakers from './Components/Speakers/speakers.jsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+import { HashRouter, Routes, Route } from "react-router-dom"
 
 function App() {
-  const router = createBrowserRouter(
-    [
-      { path: "/", element: <Home /> },
-      { path: "/speakers", element: <Speakers /> }
-    ],
-    {
-      basename: "/iks-site",
-    }
-  )
-
   return (
-    <>
+    <HashRouter>
       <Navbar />
-      <RouterProvider router={router} />
-    </>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/speakers" element={<Speakers />} />
+      </Routes>
+    </HashRouter>
   )
 }
 
