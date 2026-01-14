@@ -48,3 +48,33 @@ width: 40%;
     font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
 }
 
+/* ---------- Mobile & Tablet ---------- */
+@media (max-width: 768px) {
+
+  .committeecontainer {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .blocktitle {
+    font-size: 1.6rem;
+    margin: 1.2rem 0 0.6rem;
+    text-align: center;
+  }
+
+  .listblock {
+    padding: 1.2rem 1.4rem;
+    border-left: 4px solid #1e3a8a;
+  }
+
+  .listblock li {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding: 0.5rem 0;
+  }
+
+  .listblock li span {
+    display: block;      /* name on top */
+    font-size: 1rem;
+  }
+}
