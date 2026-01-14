@@ -7,15 +7,9 @@
     max-width: 90%;
 
     /* Glass background */
-    background: linear-gradient(
-        145deg,
-        rgba(15, 31, 43, 0.45),
-        rgba(20, 43, 61, 0.25)
-    );
+    background: rgba(255, 255, 255, 0.05);
 
-    /* Glass blur */
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+  
 
     /* Glass border */
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -26,6 +20,7 @@
 
     /* Rounded capsule */
     border-radius: 50%,50%,50%,50%;
+    margin: 1%;
 }
 
 
@@ -66,4 +61,5 @@
     color: #a4d6fa;
     font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
     font-size: 100%;
+    font-weight: bold;
 }

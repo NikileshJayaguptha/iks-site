@@ -1,0 +1,50 @@
+.committee-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 40%;              /* half-size */
+  padding: 16px 20px;
+height: 30%;
+  background: linear-gradient(
+    145deg,
+    rgba(15, 31, 43, 0.7),
+    rgba(20, 43, 61, 0.7)
+  );
+
+  border-radius: 14px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  margin: 1%;
+}
+
+.committee-img {
+width: 40%;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.committee-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: larger;
+}
+
+.committee-name {
+  font-size: x-large;   /* increased */
+  font-weight: 600;
+  color: #5ec2ff;
+  
+    font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
+  
+}
+
+.committee-title {
+  font-size: large;   /* increased */
+  color: #d6e4ee;
+  opacity: 0.9;
+  
+    font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
+}
+

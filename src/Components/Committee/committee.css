@@ -1,0 +1,51 @@
+.blocktitle{
+    color: white;
+    font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 1%;
+}
+.committeecontainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+.block {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.listblock {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2%;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+
+.listblock ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listblock li {
+  padding: 0.6rem 0;
+  font-size: 1.05rem;
+  color: #d6e4ee;
+}
+
+.listblock li span {
+  font-weight: 700;
+  color: #5ec2ff;
+}
+
+
+
