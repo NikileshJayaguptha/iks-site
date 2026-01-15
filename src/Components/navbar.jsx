@@ -1,8 +1,11 @@
+import { useState } from 'react'
 import './Navbar.css'
 import ssnLogo from '../assets/ssn.png'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
+  const [open, setOpen] = useState(false)
+
   return (
     <nav className="navbar">
       <div className="logo">
@@ -11,14 +14,25 @@ function Navbar() {
         </Link>
       </div>
 
-      <ul className="itemlist">
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/speakers">Speakers</Link></li>
-        <li><Link to="/schedule">Schedule</Link></li>
-        <li><Link to="/programs">Programs</Link></li>
-        <li><Link to="/venue">Venue</Link></li>
-        <li><Link to="/commitee">Committee</Link></li>
-        <li><Link to="/registration">Registration</Link></li>
+      {/* Hamburger icon */}
+      <div
+        className={`hamburger ${open ? 'active' : ''}`}
+        onClick={() => setOpen(!open)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      {/* Menu */}
+      <ul className={`itemlist ${open ? 'open' : ''}`}>
+        <li onClick={() => setOpen(false)}><Link to="/about">About</Link></li>
+        <li onClick={() => setOpen(false)}><Link to="/speakers">Speakers</Link></li>
+        <li onClick={() => setOpen(false)}><Link to="/schedule">Schedule</Link></li>
+        <li onClick={() => setOpen(false)}><Link to="/programs">Programs</Link></li>
+        <li onClick={() => setOpen(false)}><Link to="/venue">Venue</Link></li>
+        <li onClick={() => setOpen(false)}><Link to="/commitee">Committee</Link></li>
+        <li onClick={() => setOpen(false)}><Link to="/registration">Registration</Link></li>
       </ul>
     </nav>
   )

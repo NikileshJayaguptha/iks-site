@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     height: 7vh;
+    justify-content: space-between;
 }
 .logo{
     flex: 0.2;
@@ -33,4 +34,65 @@
 .logoimg{
     width:8em;
     margin-top: 10px;
+}
+
+.hamburger {
+  display: none;          /* hidden on desktop */
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.hamburger span {
+  width: 26px;
+  height: 3px;
+  background-color: white;
+  display: block;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+  
+  .hamburger {
+    
+    top:20vh;  
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+
+  }
+
+  .itemlist {
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background: #0f1f2b;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .itemlist.open {
+    max-height: 400px;
+  }
+
+  .itemlist li {
+    padding: 1rem 0;
+  }
+  .hamburger {
+    display: flex;
+  }
+
 }

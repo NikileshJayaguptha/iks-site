@@ -21,3 +21,4 @@ export default function Speakercard(props) {
     </div>
   );
 }
+

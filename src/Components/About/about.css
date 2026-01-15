@@ -50,3 +50,29 @@
 .dates-table th {
   font-weight: 700;
 }
+@media (max-width: 768px) {
+
+  .abtssntitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color:#57B9FF;
+}
+/* Paragraph text */
+.abouttext {
+    font-size: small;
+    text-align: justify;
+    opacity: 0.95;
+    color: #cfe9ff;
+}
+
+.dates-table {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+}

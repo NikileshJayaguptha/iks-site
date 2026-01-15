@@ -48,33 +48,34 @@ width: 40%;
     font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
 }
 
-/* ---------- Mobile & Tablet ---------- */
+
+/* Mobile view */
 @media (max-width: 768px) {
-
-  .committeecontainer {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
-  .blocktitle {
-    font-size: 1.6rem;
-    margin: 1.2rem 0 0.6rem;
+  .committee-card {
+    flex-direction: column;      /* stack items */
+    width: 90%;                  /* full width on phone */
+    height: auto;
     text-align: center;
+    padding: 20px 16px;
   }
 
-  .listblock {
-    padding: 1.2rem 1.4rem;
-    border-left: 4px solid #1e3a8a;
+  .committee-img {
+    width: 120px;                /* fixed circle size */
+    height: 120px;
+    margin-bottom: 12px;
   }
 
-  .listblock li {
-    font-size: 0.95rem;
-    line-height: 1.6;
-    padding: 0.5rem 0;
+  .committee-text {
+    align-items: center;
+    gap: 8px;
   }
 
-  .listblock li span {
-    display: block;      /* name on top */
+  .committee-name {
+    font-size: 1.2rem;
+  }
+
+  .committee-title {
     font-size: 1rem;
   }
+  
 }

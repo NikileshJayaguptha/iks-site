@@ -63,3 +63,27 @@
     font-size: 100%;
     font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+    .cardwrapper {
+        flex-direction: column !important; /* overrides inline style */
+        align-items: center;
+        text-align: center;
+    }
+
+    .speakerimg {
+        width: 55%;          /* undo 18% */
+        margin-bottom: 1rem;
+    }
+
+    .speakertext {
+        width: 100%;         /* undo 78% */
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    .speechtopic {
+        width: 100%;
+    }
+}

@@ -49,3 +49,14 @@
 
 
 
+/* Mobile view */
+@media (max-width: 768px) {
+  .block{
+    background:none;
+  }
+
+  
+.listblock li {
+  font-size: small;
+}
+}
