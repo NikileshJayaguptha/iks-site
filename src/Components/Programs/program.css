@@ -9,3 +9,13 @@
   display: flex;
   gap: 2rem;
 }
+@media (max-width: 768px) {
+  .program-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .programcard {
+  display: flex;
+  gap: 2rem;
+}
+}
