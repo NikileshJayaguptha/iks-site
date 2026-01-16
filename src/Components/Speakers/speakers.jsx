@@ -24,7 +24,7 @@ export default function speakers() {
       <Speakercard 
         path={speaker3}  
         name="SHIVADEEPAN"  
-        desc="" 
+        desc="Dharumaiyaadheena Pulavar" 
         topic="சைவ சித்தாந்தத்தில் உறக்கமும் உயிரும்"
         direct="right"
       />
