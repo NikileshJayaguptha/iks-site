@@ -27,3 +27,11 @@
 .progbutton:hover{
     background: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width: 768px) {
+    .progbutton{
+        font-size: larger;
+        height: 20vh;
+        width: 30vh;
+    }
+}

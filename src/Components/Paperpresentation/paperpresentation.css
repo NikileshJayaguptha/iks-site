@@ -50,3 +50,15 @@ color: #a4d6fa;
 .subbtn{
     align-self: center;
 }
+
+@media (max-width: 768px) {
+    .submitpapbtn{
+        width: 15vh;
+        height: 10vh;
+        font-size: large;
+    }
+    .submitpapbtn a{
+    color: white;
+    text-decoration: none;
+}
+}
