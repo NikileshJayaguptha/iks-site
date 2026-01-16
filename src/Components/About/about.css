@@ -101,5 +101,6 @@
         font-size: 1rem;
         backdrop-filter: blur(6px);
         -webkit-backdrop-filter: blur(6px);
+        font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
     }
 }
