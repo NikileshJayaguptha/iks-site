@@ -29,32 +29,7 @@ export default function About() {
         <p className="abouttext">Academicians and researchers; undergraduate and postgraduate students; doctoral (Ph.D.) scholars; practitioners of Indian traditional systems; policy experts and professionals; as well as spiritual teachers and cultural enthusiasts.</p>
       </section>
 
-      <table className="dates-table">
-  <thead>
-    <tr>
-      <th>Event</th>
-      <th>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Abstract Submission Deadline</td>
-      <td>31st January 2026</td>
-    </tr>
-    <tr>
-      <td>Full Paper Submission Deadline</td>
-      <td>04th February 2026</td>
-    </tr>
-    <tr>
-      <td>Acceptance Notification</td>
-      <td>07th February 2026</td>
-    </tr>
-    <tr>
-      <td>Last Date to Register</td>
-      <td>10th February 2026</td>
-    </tr>
-  </tbody>
-</table>
+
 
     </section>
   )

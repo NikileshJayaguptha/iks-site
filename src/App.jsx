@@ -7,6 +7,7 @@ import Committee from './Components/Committee/committee.jsx'
 import Program from './Components/Programs/program.jsx'
 import Paperpresentation from './Components/Paperpresentation/Paperpresentation.jsx'
 import Quizpage from "./Components/Quiz/quizpage.jsx"
+import Schedule from './Components/Schedule/schedule.jsx'
 import { HashRouter, Routes, Route } from "react-router-dom"
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/programs' element={<Program />}  />
         <Route path='/paperpresentation' element={<Paperpresentation />}  />
         <Route path='/quiz' element={<Quizpage />}  />
+        <Route path='/schedule' element={<Schedule />}  />
 
       </Routes>
     </HashRouter>

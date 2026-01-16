@@ -6,7 +6,7 @@
     font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
 }
 
-/* Each section card */
+/* Each section card (UNCHANGED) */
 .aboutsection {
     background: rgba(255, 255, 255, 0.05);
     padding: 2.5rem 3rem;
@@ -19,7 +19,7 @@
     font-size: 2.2rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    color:#57B9FF;
+    color: #57B9FF;
 }
 
 /* Paragraph text */
@@ -30,49 +30,76 @@
     color: #cfe9ff;
 }
 
+/* ========================= */
+/* GLASSMORPHISM TABLE ONLY */
+/* ========================= */
 
 .dates-table {
-  width: 100%;
-  max-width: 600px;
-  margin: auto;
-  border-collapse: collapse;
-  font-size: 1.2rem;
-  color: #ffffff;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+    color: #ffffff;
+
+    /* Glass background */
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.18),
+        rgba(255, 255, 255, 0.05)
+    );
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 16px;
+    overflow: hidden;
+
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
 }
 
+/* Cells */
 .dates-table th,
 .dates-table td {
-  padding: 1rem 1.2rem;
-  border: 2px solid #ffffff;
-  text-align: center;
+    padding: 1rem 1.2rem;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.35);
 }
 
+/* Header */
 .dates-table th {
-  font-weight: 700;
+    font-weight: 700;
+    background: rgba(87, 185, 255, 0.3);
+    color: #eaf6ff;
 }
+
+/* Row hover */
+.dates-table tbody tr:hover td {
+    background: rgba(87, 185, 255, 0.15);
+    transition: background 0.3s ease;
+}
+
+/* MOBILE */
 @media (max-width: 768px) {
 
-  .abtssntitle {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color:#57B9FF;
-}
-/* Paragraph text */
-.abouttext {
-    font-size: small;
-    text-align: justify;
-    opacity: 0.95;
-    color: #cfe9ff;
-}
+    .abtssntitle {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #57B9FF;
+    }
 
-.dates-table {
-  width: 100%;
-  max-width: 600px;
-  margin: auto;
-  border-collapse: collapse;
-  font-size: 1rem;
-  color: #ffffff;
-}
+    .abouttext {
+        font-size: small;
+        text-align: justify;
+        opacity: 0.95;
+        color: #cfe9ff;
+    }
 
+    .dates-table {
+        font-size: 1rem;
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+    }
 }

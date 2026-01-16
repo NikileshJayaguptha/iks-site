@@ -32,10 +32,35 @@ export default function Paperpresentation() {
         <section className="aboutsection">
         <h2 className="abtssntitle">Registration</h2>
         <p className="abouttext">
-          Participants can register for Paper Presentation either online during conference registration or in person at the registration desk on the day of the event.
-          </p>
-      </section>  
-        <div className="subbtn"><a href="https://forms.gle/EngkxYgZvaJUp7T28"><button className="submitpapbtn">Submit</button></a></div>
+         Participants can register for the Paper Presentation online. Authors are required to submit an abstract first. The full paper submission link will be shared through the acceptance email after abstract review. </p>
+      </section> 
+      <table className="dates-table">
+  <thead>
+    <tr>
+      <th>Event</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abstract Submission Deadline</td>
+      <td>31st January 2026</td>
+    </tr>
+    <tr>
+      <td>Full Paper Submission Deadline</td>
+      <td>04th February 2026</td>
+    </tr>
+    <tr>
+      <td>Acceptance Notification</td>
+      <td>07th February 2026</td>
+    </tr>
+    <tr>
+      <td>Last Date to Register</td>
+      <td>10th February 2026</td>
+    </tr>
+  </tbody>
+</table> 
+        <div className="subbtn"><a href="https://docs.google.com/forms/d/e/1FAIpQLScuhqQc1ZEEfYE1aA6ZAI6oB9IzQEzCm3-2HZPokZq5qcd9Cg/viewform?usp=dialog"><button className="submitpapbtn">Submit</button></a></div>
     </section>
   )
 }
