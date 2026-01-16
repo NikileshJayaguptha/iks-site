@@ -80,6 +80,23 @@
     transition: background 0.3s ease;
 }
 
+/* Column width control */
+.dates-table th:nth-child(1),
+.dates-table td:nth-child(1) {
+    width: 20%;
+}
+
+.dates-table th:nth-child(2),
+.dates-table td:nth-child(2) {
+    width: 30%;
+}
+
+.dates-table th:nth-child(3),
+.dates-table td:nth-child(3) {
+    width: 50%;
+}
+
+
 /* MOBILE */
 @media (max-width: 768px) {
 
@@ -103,4 +120,21 @@
         -webkit-backdrop-filter: blur(6px);
         font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
     }
+
+    /* Column width control */
+.dates-table th:nth-child(1),
+.dates-table td:nth-child(1) {
+    width: 20%;
+}
+
+.dates-table th:nth-child(2),
+.dates-table td:nth-child(2) {
+    width: 30%;
+}
+
+.dates-table th:nth-child(3),
+.dates-table td:nth-child(3) {
+    width: 50%;
+}
+
 }
