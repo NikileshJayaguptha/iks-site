@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './Navbar.css'
+import './navbar.css'
 import ssnLogo from '../assets/ssn.png'
 import { Link } from 'react-router-dom'
 
