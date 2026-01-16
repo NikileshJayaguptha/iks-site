@@ -40,6 +40,8 @@ export default function committee() {
           <li><span>Mr. Nikilesh Jayaguptha</span> – Final Year, Department of Computer Science</li>
           <li><span>Ms. R. Srilakshya</span> – Third Year, Department of Biomedical Engineering</li>
           <li><span>Ms. Swathi Muralikrishnan</span> – Third Year, Department of Biomedical Engineering</li>
+          <li><span>Mr. Augustine Wisely Bezalel</span> – Final Year, Department of Biomedical Engineering</li>
+          <li><span>Ms. Abirami Thirupathy</span> – Final Year, Department of Biomedical Engineering</li>
         </ul>
       </div>
 
