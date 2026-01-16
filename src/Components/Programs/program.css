@@ -1,0 +1,11 @@
+.program-page {
+  min-height: 93vh;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+}
+
+.programcard {
+  display: flex;
+  gap: 2rem;
+}

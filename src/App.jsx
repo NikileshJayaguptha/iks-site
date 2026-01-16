@@ -4,8 +4,10 @@ import Home from "./Components/Home/home.jsx"
 import Speakers from './Components/Speakers/speakers.jsx'
 import About from './Components/About/about.jsx'
 import Committee from './Components/Committee/committee.jsx'
+import Program from './Components/Programs/program.jsx'
+import Paperpresentation from './Components/Paperpresentation/Paperpresentation.jsx'
+import Quizpage from "./Components/Quiz/quizpage.jsx"
 import { HashRouter, Routes, Route } from "react-router-dom"
-
 function App() {
   return (
     <HashRouter>
@@ -16,6 +18,9 @@ function App() {
         <Route path="/speakers" element={<Speakers />} />
         <Route path='/about' element={<About />}  />
         <Route path='/commitee' element={<Committee />}  />
+        <Route path='/programs' element={<Program />}  />
+        <Route path='/paperpresentation' element={<Paperpresentation />}  />
+        <Route path='/quiz' element={<Quizpage />}  />
 
       </Routes>
     </HashRouter>

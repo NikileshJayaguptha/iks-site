@@ -19,6 +19,7 @@ export default function home() {
         <img src={ikslogo} alt="" className="ikslogo" />
         <img src={ssnlogo} alt="" className="ssnlog" />
       </div>
+      
     </div>
   )
 }

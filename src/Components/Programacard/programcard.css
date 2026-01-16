@@ -1,0 +1,29 @@
+.progbutton {
+    height: 30vh;
+    width: 40vw;
+
+    /* Glass background */
+    background: rgba(255, 255, 255, 0.15);
+
+    /* Glass blur */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    /* Glass border */
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    /* Depth */
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.25);
+
+    /* Rounded edges */
+    border-radius: 16px;
+    color: white;
+    font-family: "Arial Rounded MT", "Arial Rounded MT Bold", Arial, sans-serif;
+    font-size: xx-large;
+
+}
+
+.progbutton:hover{
+    background: rgba(255, 255, 255, 0.5);
+}

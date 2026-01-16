@@ -22,6 +22,7 @@ export default function About() {
           to knowledge that harmonizes material progress with spiritual wisdom.
         </p>
       </section>
+      
 
       <section className="aboutsection">
         <h2 className="abtssntitle">Who can participate?</h2>
