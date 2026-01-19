@@ -29,6 +29,8 @@ export default function speakers() {
         topic="Integrating IKS and Modern Technology for Futuristic Solutions"
         direct="right"
       />
+
+      
       <Speakercard 
         path={speaker4}  
         name="CHRISPHIN KARTHICK"  
