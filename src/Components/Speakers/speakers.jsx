@@ -4,6 +4,7 @@ import "./speakers.css"
 import speaker1 from "../../assets/speaker1.png"
 import speaker2 from "../../assets/speaker2.png"
 import speaker3 from "../../assets/speaker3.png"
+import speaker4 from "../../assets/speaker4.png"
 export default function speakers() {
   return (
     <div className='speakers'>
@@ -15,19 +16,27 @@ export default function speakers() {
         direct="right"
       />
       <Speakercard 
-        path={speaker2}  
-        name="ANANTHALAKSHI ADINARAYANAN"  
-        desc="Co-Founder, Anaadi Foundation & Dharma Gurukulam , IKS Expert" 
-        topic="xxx"
+        path={speaker3}  
+        name="சிவதீபன் (எ) செ. தீபன்ராஜ் "  
+        desc="ME, MA, தருமையாதீன புலவர்" 
+        topic="சைவ சித்தாந்தத்தில் உறக்கமும் உயிரும்"
         direct="left"
       />
       <Speakercard 
-        path={speaker3}  
-        name="SHIVADEEPAN"  
-        desc="Dharumaiyaadheena Pulavar" 
-        topic="சைவ சித்தாந்தத்தில் உறக்கமும் உயிரும்"
+        path={speaker2}  
+        name="ANANTHALAKSHI ADINARAYANAN"  
+        desc="Co-Founder, Anaadi Foundation & Dharma Gurukulam , IKS Expert" 
+        topic="Integrating IKS and Modern Technology for Futuristic Solutions"
         direct="right"
       />
+      <Speakercard 
+        path={speaker4}  
+        name="CHRISPHIN KARTHICK"  
+        desc="Scientist and Astronomy Science Communicator at Indian Institute of Astrophysics" 
+        topic="Foundations of Astronomy from Indian Knowledge System to Modern Facilities and Careers"
+        direct="left"
+      />
+      
     </div>
   )
 }
