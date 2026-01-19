@@ -3,7 +3,8 @@ import "./paperpresentation.css"
 
 export default function Paperpresentation() {
   return (
-    <section className="aboutwrapper">
+    <div className='paperwrapper1'>
+    <section className="paperwrapper">
 
       <section className="aboutsection">
         <h2 className="abtssntitle">Conference Themes</h2>
@@ -62,5 +63,6 @@ export default function Paperpresentation() {
 </table> 
         <div className="subbtn"><a href="https://docs.google.com/forms/d/e/1FAIpQLScuhqQc1ZEEfYE1aA6ZAI6oB9IzQEzCm3-2HZPokZq5qcd9Cg/viewform?usp=dialog"><button className="submitpapbtn">Submit</button></a></div>
     </section>
+    </div>
   )
 }

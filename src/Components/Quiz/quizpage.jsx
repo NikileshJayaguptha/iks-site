@@ -3,7 +3,7 @@ import "./quizpage.css"
 export default function Quizpage() {
   return (
     <div>
-      <section className="aboutwrapper">
+      <section className="quizwrapper">
         <section className="aboutsection">
           <h2 className="abtssntitle">IKS QUIZ</h2>
 

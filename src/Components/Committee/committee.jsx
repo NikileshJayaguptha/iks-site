@@ -8,6 +8,7 @@ import shanmugapriya from "../../assets/shanmugapriya.png"
 import "./committee.css"
 export default function committee() {
   return (
+    <div className='committeebg'>
     <div className='committeecontainer'>
       <div className="blocktitle">Convenor</div>
       <div className="block">
@@ -45,6 +46,7 @@ export default function committee() {
         </ul>
       </div>
 
+    </div>
     </div>
   )
 }

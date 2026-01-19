@@ -3,6 +3,17 @@
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
+         margin: 0;
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/mahabs5.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
 }
 
 .programcard {
@@ -18,3 +29,6 @@
   flex-direction: column;
 }
 }
+
+
+
