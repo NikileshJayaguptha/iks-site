@@ -15,6 +15,7 @@
 .committeebg {
   min-height: 100vh;
   padding-top: 1px;   /* REQUIRED */
+  padding-bottom: 1px;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../../assets/mahabs.webp");
