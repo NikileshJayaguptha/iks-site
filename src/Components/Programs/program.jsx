@@ -11,6 +11,9 @@ export default function Program() {
         </Link>
         <Link to="/quiz">
           <Programcard name="IKS Quiz"/>
+        </Link>
+        <Link to="/rangoli">
+          <Programcard name="Kolam Competition"/>
         </Link>      
       </div>
     </div>

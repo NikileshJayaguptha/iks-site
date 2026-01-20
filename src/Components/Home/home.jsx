@@ -8,7 +8,7 @@ export default function home() {
     <div className='homecontainer'>
       <div className="texttitle">
         <div className='title'>Two day National Conference on <br /> Indian Knowledge Systems: Tradition, Worship, Technology <br/> Integrating indian knowledge system for engineers </div>
-        <div className="datedesc">12-13 February 2026</div>
+        <div className="datedesc">13-14 February 2026</div>
         <div className="collegename">SSN College of Engineering</div>
         
       </div>
