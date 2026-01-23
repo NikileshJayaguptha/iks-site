@@ -27,8 +27,10 @@ function Navbar() {
       {/* Menu */}
       <ul className={`itemlist ${open ? 'open' : ''}`}>
         <li onClick={() => setOpen(false)}><Link to="/about">About</Link></li>
+        <li onClick={() => setOpen(false)}><Link to="/venue">Travel & Accommodation</Link></li>
         <li onClick={() => setOpen(false)}><Link to="/speakers">Speakers</Link></li>
         <li onClick={() => setOpen(false)}><Link to="/schedule">Schedule</Link></li>
+        <li onClick={() => setOpen(false)}><Link to="/paperpresentation">Call For Papers</Link></li>
         <li onClick={() => setOpen(false)}><Link to="/programs">Programs</Link></li>
         <li onClick={() => setOpen(false)}><Link to="/commitee">Committee</Link></li>
         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfcuNDjHwn4SHuMOq5bJTNRc3P3fBTNb7H32dttJjs49qaanw/viewform?usp=publish-editor">Registration</a></li>
