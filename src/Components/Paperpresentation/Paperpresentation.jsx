@@ -45,15 +45,15 @@ export default function Paperpresentation() {
   <tbody>
     <tr>
       <td>Abstract Submission Deadline</td>
-      <td>31st January 2026</td>
+      <td>6th February 2026</td>
     </tr>
     <tr>
       <td>Full Paper Submission Deadline</td>
-      <td>04th February 2026</td>
+      <td>8th February 2026</td>
     </tr>
     <tr>
       <td>Acceptance Notification</td>
-      <td>07th February 2026</td>
+      <td>9th February 2026</td>
     </tr>
     <tr>
       <td>Last Date to Register</td>
